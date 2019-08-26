@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
     s.name         = "AVCalendarFramework"
-    s.version      = "0.1.0"
+    s.version      = "0.1.1"
     s.summary      = "A brief description of AVCalendarFramework project."
     s.description  = <<-DESC
-    An extended description of AVCalendarFramework project.
+    A customisable calendar framework. Which can be used to add a clear and a unique calendar to your application.
     DESC
     s.homepage     = "http://dextraltech.com"
     s.license = { :type => 'Copyright', :text => <<-LICENSE
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "AVCalendarFramework.framework"
     s.platform = :ios
     s.swift_version = "4.2"
-    s.ios.deployment_target  = '12.0'
+    s.ios.deployment_target  = '9.0'
 end
