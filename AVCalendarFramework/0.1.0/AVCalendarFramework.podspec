@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "AVCalendarFramework"
-    s.version      = "0.1.1"
+    s.version      = "0.1.0"
     s.summary      = "A brief description of AVCalendarFramework project."
     s.description  = <<-DESC
     A customisable calendar framework. Which can be used to add a clear and a unique calendar to your application.
